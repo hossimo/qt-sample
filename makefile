@@ -1,5 +1,7 @@
 all: hello
 
+test: hello
+
 hello: hello.o
 	gcc -o hello hello.o
 
